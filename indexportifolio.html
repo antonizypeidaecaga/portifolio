@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portifolio</title>
+	<link rel="stylesheet" href="styleportifolio.css" >
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#habilidades">Habilidades</a></li>
+				<li><a href="#projetos">Meus projetos</a></li>
+				<li><a href="#contato">Fale que eu te escuto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="sobre">
+		<div class="fotoperfil">
+		<img src="https://pbs.twimg.com/media/FTY2FUDX0AANgdo?format=jpg&name=4096x4096" alt="Foto de perfil">
+		<h1 class="paragrafo1">Sobre mim</h1>
+		<br>
+		<p class="paragrafo1">Ola eu sou <strong>Antony</strong> um estudante de analise de sistema que esta aprendendo a mexer com <strong>Javascript</strong> <strong>CSS</strong> e <strong>HTML</strong></p>
+		<br>
+	</div>
+
+	</section>
+
+	<section id="habilidades">
+		<h1 class="paragrafo1">Habilidades</h1>
+		<br>
+		<p class="paragrafo1">Sou uma pessoa boa com jogos, de fps principalmente</p>
+		<br>
+		<p class="paragrafo1">Diria que aprendendo as coisas ate que rapido</p>
+		<br>
+		<p class="paragrafo1"> E gosto de rir bastante</p>
+		<br>
+	</section>
+
+	<section id="projetos">
+		<div>
+		<h1 class="paragrafo1">Meus projetos</h1>
+		<br>
+		<p class="paragrafo1"> projeto 1</p> <a href=" https://antonizypeidaecaga.github.io/calculadora/" target="_blank">clique aqui</a>
+		<br>
+		<p class="paragrafo1"> projeto 2</p> <a href=" https://antonizypeidaecaga.github.io/numeroSecreto2/" target="_blank">clique aqui</a>
+		</div>
+		<br>
+
+    <section id="contato">
+        <h1>Entre em Contato</h1>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="erro" style="color: red; display: none;">
+            <p>Por favor, preencha todos os campos corretamente!</p>
+        </div>
+        <div id="sucesso" style="color: green; display: none;">
+            <p>Obrigado! Sua mensagem foi enviada.</p>
+        </div>
+   		<script src="scriptportifolio.js"></script>
+
+</body>
+</html>
